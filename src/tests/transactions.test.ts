@@ -1,14 +1,6 @@
 import app from 'src/server/app'
 import supertest from 'supertest'
-import {
-  beforeAll,
-  afterAll,
-  beforeEach,
-  afterEach,
-  expect,
-  describe,
-  test,
-} from 'vitest'
+import { beforeAll, afterAll, beforeEach, expect, describe, test } from 'vitest'
 import { execSync } from 'node:child_process'
 
 beforeAll(async () => {
